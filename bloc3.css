@@ -1,0 +1,9 @@
+.bloc3{
+    size: 20px;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 5%;
+margin-top: 1%;
+margin-left: 0%;
+}

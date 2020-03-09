@@ -1,0 +1,91 @@
+.bloc4{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 0% 20px 70px 80px;
+
+}
+.terms{
+size: 30px;
+font-size: 20px;
+background-color: whitesmoke;
+display: flex;
+padding: 1% ;
+font-style: italic;
+}
+.mark{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+}
+
+
+.img_btn:hover .overlay {
+    opacity: 0.9;
+  }
+  .img_btn1:hover .overlay {
+    opacity: 0.9;
+    background-color: rgb(81, 194, 159);
+  }
+  .img_btn2:hover .overlay {
+    opacity: 0.9;
+    background-color: rgb(206, 160, 175);
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    width: 300px;
+  
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(32, 128, 160);
+  }
+  .img-bloc4 {
+    position: relative;
+    width: 75.5%;
+
+  }
+  .img-bloc42 {
+    position: relative;
+    width: 74%;
+
+  }
+  .img-bloc43 {
+    position: relative;
+    width: 77%;
+
+  }
+  
+  .mark1{
+    text-align: center;
+    background-color: rgb(239, 239, 239);
+   margin-bottom: 0em;
+   size: 200px; 
+   padding: 2%
+  }
+  .text_bloc4{
+    font-family: Walsheim;
+    line-height: 28px;
+    margin-bottom: 30px;
+    margin-right: 10%;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1, "ss04" 1;
+    font-size: 15px;
+    padding: 3px 5px 0px 5px ;
+    
+
+  }
+  p.text_bloc4{border-style: none;
+  }
+
+  .img-btn>p{
+    border: 1px solid red;
+    width: 320px
+  }
+  .text_bloc4{
+    border: 1px solid red;
+    width: 320px
+  }
